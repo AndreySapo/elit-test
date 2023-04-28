@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,50 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Тестовое задание</title>
 </head>
-<body class="body">
-  
-  <main class="main">
 
+<body class="body">
+
+  <main class="main">
     <section class="section1">
-      <div class="left-column">
+      <div class="section1__left-col">
+        <div class="section1__img-container">
+          <ul class="section1__thumbnails">
+            <li class="section1__thumbnail">
+              <img src="./images/photo 1.jpg" alt="" class="section1__thumbnail-img">
+            </li>
+            <li class="section1__thumbnail">
+              <!-- TODO подумать над видео -->
+              <img src="./images/photo 2.jpg" alt="" class="section1__thumbnail-img">
+            </li>
+            <li class="section1__thumbnail">
+              <img src="./images/photo 3.jpg" alt="" class="section1__thumbnail-img section1__thumbnail-img_selected">
+            </li>
+          </ul>
+          <!-- большая картинка -->
+          <img src="./images/photo 3.jpg" alt="" class="section1__big-img">
+          <div class="slider">
+            <button class="slider__button slider__left" />
+            <button class="slider__button slider__right" />
+          </div>
+        </div>
         <ul class="properties">
           <li class="property property-bestseller">хит</li>
           <li class="property property-promotion">акция</li>
           <li class="property property-recommendation">рекомендуем</li>
           <li class="property property-frozen">заморозка</li>
         </ul>
-        <ul class="thumbnails">
-          <li class="thumbnail">
-            <img src="./images/photo 1.jpg" alt="Фотография 1" class="thumbnail-img">
-          </li>
-          <li class="thumbnail">
-            <img src="./images/photo 2.jpg" alt="Фотография 2" class="thumbnail-img thumbnail-video">
-          </li>
-          <li class="thumbnail">
-            <img src="./images/photo 3.jpg" alt="Фотография 3" class="thumbnail-img">
-          </li>
-        </ul>
+        <p class="section1__product-code">Код товара: УТ000003852</p>
       </div>
-      <div class="right-column"></div>
+      <!-- вторая колонка -->
+      <div class="section1__right-col">
+        <!-- верхняя часть -->
+        <!-- нижнняя часть -->
+      </div>
+
     </section>
   </main>
 
   <script src="./pages/index.js"></script>
 </body>
+
 </html>
