@@ -1,0 +1,10 @@
+.property {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 6px;
+  position: absolute;
+  top: 0px;
+  left: 74px;
+}

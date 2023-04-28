@@ -1,0 +1,28 @@
+:root {
+  /* --main-bg-color: brown; */
+
+  --background: #fff;
+
+  /* цвета текста */
+  --black-primary: #333333;
+  --grey-dark: #666666;
+  --grey-primary: #949494;
+  --grey-light: #d9d9d9;
+  --grey-line: #ECECEC;
+  --grey-medium: #B6B5B5;
+
+  --yellow-star: #FFC857;
+
+  --red-primary: #DF002C;
+  --red-delicate: #FF5C5C;
+
+  --green-primary: #B5D65E;
+
+  --pink-favorites: #FF607F;
+
+  /* цвета панелек */
+  --bestseller: #FDBF40;
+  --promotion: #FF5C5C;
+  --recommendation: #A9C55E;
+  --frozen: #70AEFF;
+}

@@ -1,34 +1,29 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../vendor/constants.css);
 
-:root {
-  /* --main-bg-color: brown; */
+/* стили блока section1 */
+@import url(../blocks/section1/section1.css);
+@import url(../blocks/section1/__left-col/section1__left-col.css);
+@import url(../blocks/section1/__img-container/section1__img-container.css);
+@import url(../blocks/section1/__thumbnails/section1__thumbnails.css);
+@import url(../blocks/section1/__thumbnail/section1__thumbnail.css);
+@import url(../blocks/section1/__thumbnail-img/section1__thumbnail-img.css);
+@import url(../blocks/section1/__thumbnail-img/_selected/section1__thumbnail-img_selected.css);
+@import url(../blocks/section1/__big-img/section1__big-img.css);
+@import url(../blocks/section1/__product-code/section1__product-code.css);
+@import url(../blocks/section1/__slider/section1__slider.css);
+@import url(../blocks/section1/__slider-button/section1__slider-button.css);
+@import url(../blocks/section1/__slider-left/section1__slider-left.css);
+@import url(../blocks/section1/__slider-right/section1__slider-right.css);
 
-  --background: #fff;
-
-  /* цвета текста */
-  --black-primary: #333333;
-  --grey-dark: #666666;
-  --grey-primary: #949494;
-  --grey-light: #d9d9d9;
-  --grey-line: #ECECEC;
-  --grey-medium: #B6B5B5;
-
-  --yellow-star: #FFC857;
-
-  --red-primary: #DF002C;
-  --red-delicate: #FF5C5C;
-
-  --green-primary: #B5D65E;
-
-  --pink-favorites: #FF607F;
-
-  /* цвета панелек */
-  --bestseller: #FDBF40;
-  --promotion: #FF5C5C;
-  --recommendation: #A9C55E;
-  --frozen: #70AEFF;
-}
+/* Стили блока property */
+@import url(../blocks/property/property.css);
+@import url(../blocks/property/__el/property__el.css);
+@import url(../blocks/property/__el/_bestseller/property__el_bestseller.css);
+@import url(../blocks/property/__el/_promotion/property__el_promotion.css);
+@import url(../blocks/property/__el/_recommendation/property__el_recommendation.css);
+@import url(../blocks/property/__el/_frozen/property__el_frozen.css);
 
 /* * {
   outline: 1px solid red;
@@ -45,132 +40,4 @@
 .main {
   margin: 220px 0 0 0;
   position: relative;
-}
-
-.section1 {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 71px;
-  margin-right: 95px;
-}
-
-.section1__left-col {
-  height: 517px;
-  width: 661px;
-  background: var(--background);
-  box-shadow: 0px 8px 15px rgba(162, 162, 162, 0.08);
-  border-radius: 10px;
-}
-
-.section1__img-container {
-  display: flex;
-  margin-left: 18px;
-  margin-top: 20px;
-  gap: 20px;
-  position: relative;
-}
-
-.section1__thumbnails {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-}
-
-.section1__thumbnail {
-  width: 120px;
-  height: 135px;
-}
-
-.section1__thumbnail-img {
-  width: 120px;
-  height: 135px;
-  background: linear-gradient(0deg, rgba(244, 135, 157, 0.5), rgba(244, 135, 157, 0.5));
-  border-radius: 5px;
-}
-
-.section1__thumbnail-img_selected {
-  border: 1px solid var(--red-primary);
-}
-
-.section1__big-img {
-  width: 481px;
-  height: 445px;
-  border-radius: 5px;
-}
-
-.slider {
-  position: absolute;
-  bottom: 10px;
-  left: 150px;
-  display: flex;
-  gap: 10px;
-}
-
-.slider__button {
-  margin: 0;
-  padding: 0;
-  border: none;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-}
-
-.slider__left {
-  background: url('../images/left.svg');
-  border-radius: 100px;
-}
-
-.slider__right {
-  background: rgba(255, 255, 255, 0.45);
-  background-image: url('../images/right.svg');
-  border-radius: 100px;
-}
-
-.properties {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 6px;
-  position: absolute;
-  top: 0px;
-  left: 74px;
-}
-
-.property {
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 120%;
-  padding: 1px 5px 2px;
-  color: #fff;
-}
-
-.property-bestseller {
-  background-color: var(--bestseller);
-}
-
-.property-promotion {
-  background-color: var(--promotion);
-}
-
-.property-recommendation {
-  background-color: var(--recommendation);
-}
-
-.property-frozen {
-  background-color: var(--frozen);
-}
-
-.section1__product-code {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 130%;
-  color: var(--grey-primary);
-  margin: 16px 0 0 18px;
-  padding: 0;
 }

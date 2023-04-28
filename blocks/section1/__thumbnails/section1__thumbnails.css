@@ -1,0 +1,8 @@
+.section1__thumbnails {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
