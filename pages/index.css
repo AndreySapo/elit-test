@@ -1,6 +1,132 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-body {
+:root {
+  /* --main-bg-color: brown; */
+
+  --background: #fff;
+
+  /* цвета текста */
+  --black-primary: #333333;
+  --grey-dark: #666666;
+  --grey-primary: #949494;
+  --grey-light: #d9d9d9;
+  --grey-line: #ECECEC;
+  --grey-medium: #B6B5B5;
+
+  --yellow-star: #FFC857;
+
+  --red-primary: #DF002C;
+  --red-delicate: #FF5C5C;
+
+  --green-primary: #B5D65E;
+
+  --pink-favorites: #FF607F;
+
+  /* цвета панелек */
+  --bestseller: #FDBF40;
+  --promotion: #FF5C5C;
+  --recommendation: #A9C55E;
+  --frozen: #70AEFF;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+.body {
   font-family: 'Montserrat';
+  box-sizing: border-box;
+  max-width: 1512px;
+  margin: 0 auto;
+  background-color: var(--background);
+}
+
+.main {
+  margin-top: 220px;
+  position: relative;
+}
+
+.section1 {
+  display: flex;
+  margin: 0 92px 0 76px;
+  justify-content: space-between;
+}
+
+.left-column {
+  box-shadow: 0px 8px 15px rgba(162, 162, 162, 0.08);
+  border-radius: 10px;
+  max-height: 517px;
+  max-width: 661px;
+  height: 100%;
+  width: 100%;
+}
+
+.properties {
+  list-style-type: none;
+  margin: 0 0 5px 0;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.property {
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 120%;
+  padding: 1px 5px 2px;
+  color: #fff;
+}
+
+.property-bestseller {
+  background-color: var(--bestseller);
+}
+
+.property-promotion {
+  background-color: var(--promotion);
+}
+
+.property-recommendation {
+  background-color: var(--recommendation);
+}
+
+.property-frozen {
+  background-color: var(--frozen);
+}
+
+.thumbnails {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+
+  max-height: 135px;
+  max-width: 120px;
+  border-radius: 5px;
+
+}
+
+.thumbnail-img {
+  width: 120px;
+  height: 135px;
+  border-radius: 5px;
+}
+
+.thumbnail-video {}
+
+
+.right-column {
+  width: 100%;
+  max-width: 661px;
+  height: 100px;
+  background-color: red;
 }
