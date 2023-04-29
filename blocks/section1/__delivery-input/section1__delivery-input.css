@@ -1,0 +1,14 @@
+.section1__delivery-input {
+  display: none;
+}
+
+.section1__delivery-input:checked+.label {
+  margin: 0 3px;
+  background: var(--background);
+  border-radius: 4px;
+  width: 200px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

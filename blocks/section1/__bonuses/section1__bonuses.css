@@ -1,0 +1,8 @@
+.section1__bonuses {
+  margin: 1px 0 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--black-primary);
+}
