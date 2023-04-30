@@ -2,6 +2,10 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../vendor/constants.css);
 
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/main/main.css);
+
 /* стили блока section1 */
 @import url(../blocks/section1/section1.css);
 /* section1 левая колонка */
@@ -38,6 +42,7 @@
 @import url(../blocks/section1/__presence-img/section1__presence-img.css);
 @import url(../blocks/section1/__presence-text/section1__presence-text.css);
 @import url(../blocks/section1/__buying-story/section1__buying-story.css);
+@import url(../blocks/section1/__subtitle/section1__subtitle.css);
 @import url(../blocks/section1/__delivery-container/section1__delivery-container.css);
 @import url(../blocks/section1/__delivery-input/section1__delivery-input.css);
 @import url(../blocks/section1/__delivery-label/section1__delivery-label.css);
@@ -55,20 +60,30 @@
 @import url(../blocks/property/__el/_recommendation/property__el_recommendation.css);
 @import url(../blocks/property/__el/_frozen/property__el_frozen.css);
 
+@import url(../blocks/subtitle/subtitle.css);
+
+/* Стили блока section2 */
+@import url(../blocks/section2/section2.css);
+@import url(../blocks/section2/__left-column/section2__left-column.css);
+@import url(../blocks/section2/__subtitle/section2__subtitle.css);
+@import url(../blocks/section2/__nutrition/section2__nutrition.css);
+@import url(../blocks/section2/__nutrition-element/section2__nutrition-element.css);
+@import url(../blocks/section2/__nutrition-header/section2__nutrition-header.css);
+@import url(../blocks/section2/__nutrition-text/section2__nutrition-text.css);
+@import url(../blocks/section2/__right-column/section2__right-column.css);
+@import url(../blocks/section2/__tg/section2__tg.css);
+@import url(../blocks/section2/__tg-text/section2__tg-text.css);
+@import url(../blocks/section2/__tg-btn/section2__tg-btn.css);
+
+@import url(../blocks/banner/banner.css);
+
 /* * {
   outline: 1px solid red;
 } */
 
-.body {
-  font-family: 'Montserrat';
-  box-sizing: border-box;
-  max-width: 1512px;
-  margin: 0 auto 0;
-  background-color: var(--background);
-}
 
-.main {
-  margin: 220px 0 0 0;
-  position: relative;
-}
+
+
+
+
 
