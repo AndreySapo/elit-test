@@ -1,0 +1,9 @@
+.description__tab-text {
+  height: 17px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 130%;
+  color: var(--black-primary);
+  margin: 0;
+  padding: 0;
+}

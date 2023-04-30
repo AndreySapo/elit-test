@@ -77,13 +77,38 @@
 
 @import url(../blocks/banner/banner.css);
 
+/* Стили блока desctiption */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__tabs/description__tabs.css);
+@import url(../blocks/description/__tab/description__tab.css);
+@import url(../blocks/description/__tab/_active/description__tab_active.css);
+@import url(../blocks/description/__tab-text/description__tab-text.css);
+@import url(../blocks/description/__tab-text/_description/description__tab-text_description.css);
+@import url(../blocks/description/__tab-text/_specification/description__tab-text_specification.css);
+@import url(../blocks/description/__tab-text/_reviews/description__tab-text_reviews.css);
+@import url(../blocks/description/__tab-text/_warranty/description__tab-text_warranty.css);
+@import url(../blocks/description/__tab-text/_payment/description__tab-text_payment.css);
+@import url(../blocks/description/__list/description__list.css);
+@import url(../blocks/description/__list-element/description__list-element.css);
+@import url(../blocks/description/__list-element/_high/description__list-element_high.css);
+@import url(../blocks/description/__header/desctiption__header.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__inner-list/description__inner-list.css);
+@import url(../blocks/description/__inner-list-el/description__inner-list-el.css);
+@import url(../blocks/description/__inner-list-el-text/description__inner-list-el-text.css);
+
+@import url(../blocks/lifehack/lifehack.css);
+@import url(../blocks/lifehack/__header/lifehack__header.css);
+@import url(../blocks/lifehack/__header-text/lifehack__header-text.css);
+@import url(../blocks/lifehack/__content/lifehack__content.css);
+@import url(../blocks/lifehack/__content-id/lifehack__content-id.css);
+@import url(../blocks/lifehack/__content-id-name/lifehack__content-id-name.css);
+@import url(../blocks/lifehack/__content-text/lifehack__content-text.css);
+
 /* * {
   outline: 1px solid red;
 } */
 
-
-
-
-
-
-
+.filler {
+  height: 500px;
+}
