@@ -135,6 +135,7 @@
 @import url(../blocks/product-card/__buy-button-img/product-card__buy-button-img.css);
 @import url(../blocks/product-card/__property/product-card__property.css);
 
+@import url(../blocks/up/up.css);
 
 /* * {
   outline: 1px solid red;
@@ -143,3 +144,4 @@
 .filler {
   height: 500px;
 }
+

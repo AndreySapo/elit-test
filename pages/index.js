@@ -13,3 +13,20 @@ const likeButtonSmallHandler = function () {
 }
 
 likeButtonSmall.addEventListener('click', likeButtonSmallHandler);
+
+
+const upBtn = document.querySelector(".up");
+
+function backToTop() {
+  if (window.pageYOffset > 1000) {
+    upBtn.hidden = false
+  } else {
+    upBtn.hidden = true
+  }
+}
+
+upBtn.onclick = function () {
+  window.scrollTo(0, 0)
+}
+
+window.onscroll = backToTop
