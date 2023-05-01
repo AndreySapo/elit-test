@@ -1,0 +1,10 @@
+.section2__right-column {
+  margin-top: 2px;
+  width: 661px;
+  height: 234px;
+  background: #E8E8E8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

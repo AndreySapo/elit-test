@@ -1,0 +1,9 @@
+.lifehack__content-id-name {
+  width: 110px;
+  margin: 6px 0 0 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 167%;
+  color: var(--black-primary);
+}

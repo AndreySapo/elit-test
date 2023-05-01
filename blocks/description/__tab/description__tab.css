@@ -1,0 +1,9 @@
+.description__tab {
+  background: #FFFFFF;
+  border-radius: 10px 10px 0px 0px;
+  border: none;
+  height: 29px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}

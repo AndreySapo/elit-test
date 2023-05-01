@@ -1,0 +1,12 @@
+.product-card__price-old {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -22px;
+  left: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  text-decoration-line: line-through;
+  color: var(--grey-primary);
+}

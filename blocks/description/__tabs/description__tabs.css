@@ -1,0 +1,13 @@
+.description__tabs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: var(--grey-line);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 661px;
+  height: 39px;
+}

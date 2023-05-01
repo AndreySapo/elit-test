@@ -1,0 +1,6 @@
+.section1__presence {
+  display: flex;
+  align-items: center;
+  margin-left: 33px;
+  gap: 10px;
+}

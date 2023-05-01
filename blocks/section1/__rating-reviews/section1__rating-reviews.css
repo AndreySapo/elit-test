@@ -1,0 +1,8 @@
+.section1__rating-reviews {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 0;
+  padding: 0;
+  gap: 8px;
+  list-style-type: none;
+}

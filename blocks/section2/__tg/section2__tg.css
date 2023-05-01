@@ -1,0 +1,8 @@
+.section2__tg {
+  display: flex;
+  height: 82px;
+  background: #F1FAFF;
+  border-radius: 10px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
