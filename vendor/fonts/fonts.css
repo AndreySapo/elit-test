@@ -224,3 +224,14 @@
 	font-weight: 500;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('Geometria.eot');
+	src: local('Geometria'),
+		url('Geometria.eot?#iefix') format('embedded-opentype'),
+		url('Geometria.woff') format('woff'),
+		url('Geometria.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}

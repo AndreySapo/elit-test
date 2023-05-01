@@ -1,0 +1,9 @@
+.product-card__like-button {
+  margin: 5px 0 0 0;
+  padding: 0;
+  border: none;
+  background: url(../../../images/like-small.svg) no-repeat;
+  height: 25px;
+  width: 30px;
+  cursor: pointer;
+}

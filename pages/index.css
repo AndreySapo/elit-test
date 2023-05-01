@@ -63,6 +63,7 @@
 @import url(../blocks/property/__el/_recommendation/property__el_recommendation.css);
 @import url(../blocks/property/__el/_frozen/property__el_frozen.css);
 
+@import url(../blocks/title/title.css);
 @import url(../blocks/subtitle/subtitle.css);
 
 /* Стили блока section2 */
@@ -107,6 +108,33 @@
 @import url(../blocks/lifehack/__content-id/lifehack__content-id.css);
 @import url(../blocks/lifehack/__content-id-name/lifehack__content-id-name.css);
 @import url(../blocks/lifehack/__content-text/lifehack__content-text.css);
+
+@import url(../blocks/section4/section4.css);
+@import url(../blocks/section4/__title/section4__title.css);
+
+@import url(../blocks/goods/goods.css);
+
+@import url(../blocks/product-card/product-card.css);
+@import url(../blocks/product-card/__img-container/product-card__img-container.css);
+@import url(../blocks/product-card/__img-switcher/product-card__img-switcher.css);
+@import url(../blocks/product-card/__img/product-card__img.css);
+@import url(../blocks/product-card/__rating-container/product-card__rating-container.css);
+@import url(../blocks/product-card/__rating/product-card__rating.css);
+@import url(../blocks/product-card/__rating-text/product-card__rating-text.css);
+@import url(../blocks/product-card/__like-button/product-card__like-button.css);
+@import url(../blocks/product-card/__like-button/_active/product-card__like-button_active.css);
+@import url(../blocks/product-card/__title/product-card__title.css);
+@import url(../blocks/product-card/__buy-container/product-card__buy-container.css);
+@import url(../blocks/product-card/__price-container/product-card__price-container.css);
+@import url(../blocks/product-card/__price-old/product-card__price-old.css);
+@import url(../blocks/product-card/__price/product-card__price.css);
+@import url(../blocks/product-card/__price/_colored/product-card__price_colored.css);
+@import url(../blocks/product-card/__bonus/product-card__bonus.css);
+@import url(../blocks/product-card/__bonus/_colored/product-card__bonus_colored.css);
+@import url(../blocks/product-card/__buy-button/product-card__buy-button.css);
+@import url(../blocks/product-card/__buy-button-img/product-card__buy-button-img.css);
+@import url(../blocks/product-card/__property/product-card__property.css);
+
 
 /* * {
   outline: 1px solid red;

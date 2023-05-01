@@ -5,3 +5,11 @@ const likeButtonHandler = function () {
 }
 
 likeButton.addEventListener('click', likeButtonHandler);
+
+const likeButtonSmall = document.querySelector('.product-card__like-button');
+
+const likeButtonSmallHandler = function () {
+  likeButtonSmall.classList.toggle('product-card__like-button_active');
+}
+
+likeButtonSmall.addEventListener('click', likeButtonSmallHandler);
