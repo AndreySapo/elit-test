@@ -1,0 +1,5 @@
+.section1__slider-right {
+  background: rgba(255, 255, 255, 0.45);
+  background-image: url('../../../images/right.svg');
+  border-radius: 100px;
+}

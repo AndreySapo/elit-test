@@ -1,0 +1,10 @@
+.like-button {
+  height: 33px;
+  width: 40px;
+  border: none;
+  background: url('../../images/like.svg') no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}

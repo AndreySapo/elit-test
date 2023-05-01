@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Тестовое задание</title>
+</head>
+
+<body class="body">
+
+  <main class="main">
+    <section class="section1">
+      <div class="section1__left-col">
+        <div class="section1__img-container">
+          <ul class="section1__thumbnails">
+            <li class="section1__thumbnail">
+              <img src="./images/photo 1.jpg" alt="" class="section1__thumbnail-img">
+            </li>
+            <li class="section1__thumbnail">
+              <!-- TODO подумать над видео -->
+              <img src="./images/photo 2.jpg" alt="" class="section1__thumbnail-img">
+            </li>
+            <li class="section1__thumbnail">
+              <img src="./images/photo 3.jpg" alt="" class="section1__thumbnail-img section1__thumbnail-img_selected">
+            </li>
+          </ul>
+          <!-- большая картинка -->
+          <img src="./images/photo 3.jpg" alt="" class="section1__big-img">
+          <div class="section1__slider">
+            <button class="section1__slider-button section1__slider-left" />
+            <button class="section1__slider-button section1__slider-right" />
+          </div>
+        </div>
+        <ul class="property">
+          <li class="property__el property__el_bestseller">хит</li>
+          <li class="property__el property__el_promotion">акция</li>
+          <li class="property__el property__el_recommendation">рекомендуем</li>
+          <li class="property__el property__el_frozen">заморозка</li>
+        </ul>
+        <p class="section1__product-code">Код товара: УТ000003852</p>
+      </div>
+
+      <div class="section1__right-col">
+
+        <div class="section1__right-col-up-part">
+
+          <h2 class="section1__title title">Креветка в панировке "Панко" калибр 21/25&nbsp;"Fish&nbsp;and More" 1 кг (Вьетнам)
+          </h2>
+
+          <ul class="section1__rating-reviews">
+            <li>
+              <ul class="section1__rating">
+                <li>
+                  <img src="./images/Star.svg" alt="" class="section1__rating-img">
+                </li>
+                <li>
+                  <p class="section1__rating-text">4.7</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p class="section1__reviews">(2000 оценок)</p>
+            </li>
+          </ul>
+
+          <ul class="section1__prices">
+            <li>
+              <h1 class="section1__actual-price">1 267 ₽/шт</h1>
+            </li>
+            <li>
+              <p class="section1__old-price">1500 ₽/шт</p>
+            </li>
+          </ul>
+          <p class="section1__bonuses"><span class="section1__bonuses section1__bonuses_colored">+5</span> бонусов</p>
+
+          <ul class="section1__buy-list">
+            <li>
+              <button class="section1__btn-cart">
+                <img src="./images/сart.svg" alt="" class="section1__btn-cart-img">
+                <p class="section1__btn-cart-text">В корзину</p>
+              </button>
+            </li>
+            <li>
+              <div class="section1__presence">
+                <div class="section1__presence-img"></div>
+                <p class="section1__presence-text">В наличии много</p>
+              </div>
+            </li>
+            <li>
+              <p class="section1__buying-story">Купили более 1000 раз</p>
+            </li>
+          </ul>
+
+          <button class="like-button"/>
+        </div>
+
+        <div class="section1__right-col-down-part">
+
+          <h2 class="section1__subtitle subtitle">Способ получения:</h2>
+
+          <!-- TODO добавить картинки машины и пакета -->
+          <div class="section1__delivery-container">
+
+            <input type="radio" id="delivery" name="delivery" value="delivery" checked class="section1__delivery-input">
+
+            <label for="delivery" class="section1__delivery-label label">
+              Доставка
+            </label>
+
+            <input type="radio" id="pickup" name="delivery" value="pickup" class="section1__pickup-input">
+
+            <label for="pickup" class="section1__pickup-label label">
+              Самовывоз
+            </label>
+
+          </div>
+
+          <ul class="section1__delivery-details">
+            <li>
+              <h3 class="section1__delivery-header">Стоимость доставки</h3>
+              <p class="section1__delivery-text">До 3000 ₽ - 200 ₽</p>
+              <p class="section1__delivery-text">От 3000 ₽ - Бесплатно</p>
+            </li>
+            <li>
+              <h3 class="section1__delivery-header">Время доставки</h3>
+              <p class="section1__delivery-text">По Иркутску и пригороду</p>
+              <p class="section1__delivery-text">с 9:00 до 21:00</p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section2">
+      <div class="section2__left-column">
+        <h2 class="subtitle section2__subtitle">Пищевая ценность на 100 г</h2>
+        <ul class="section2__nutrition">
+          <li class="section2__nutrition-element">
+            <h3 class="section2__nutrition-header">7.8 г</h3>
+            <p class="section2__nutrition-text">Белки</p>
+          </li>
+          <li class="section2__nutrition-element">
+            <h3 class="section2__nutrition-header">8.1 г</h3>
+            <p class="section2__nutrition-text">Жиры</p>
+          </li>
+          <li class="section2__nutrition-element">
+            <h3 class="section2__nutrition-header">23.4 г</h3>
+            <p class="section2__nutrition-text">Углеводы</p>
+          </li>
+          <li class="section2__nutrition-element">
+            <h3 class="section2__nutrition-header">146 ккал</h3>
+            <p class="section2__nutrition-text">Калории
+            </p>
+          </li>
+        </ul>
+
+        <div class="section2__tg">
+          <p class="section2__tg-text">Актуальные обзоры на продукты, ответы на Ваши вопросы - все это в телеграм канале
+          </p>
+          <button class="section2__tg-btn">
+            <img src="./images/tg.svg" alt="Иконка телеграм">
+            <p>Вступить</p>
+          </button>
+        </div>
+      </div>
+      <div class="section2__right-column">
+        <p class="banner">Баннер</p>
+      </div>
+    </section>
+
+    <section class="section3">
+      <div class="description">
+        <ul class="description__tabs">
+          <li>
+            <button class="description__tab description__tab_active">
+              <p class="description__tab-text description__tab-text_description">Описание</p>
+            </button>
+          </li>
+          <li>
+            <button class="description__tab">
+              <p class="description__tab-text description__tab-text_specification">Характеристики</p>
+            </button>
+          </li>
+          <li>
+            <button class="description__tab">
+              <p class="description__tab-text description__tab-text_reviews">Отзывы (2)</p>
+            </button>
+          </li>
+          <li>
+            <button class="description__tab">
+              <p class="description__tab-text description__tab-text_warranty">Гарантия</p>
+            </button>
+          </li>
+          <li>
+            <button class="description__tab">
+              <p class="description__tab-text description__tab-text_payment">Оплата</p>
+            </button>
+          </li>
+        </ul>
+
+        <ul class="description__list">
+          <li class="description__list-element">
+            <h2 class="desctiption__header subtitle">Описание:</h2>
+            <p class="description__text">Креветка в панировке.</p>
+          </li>
+          <li class="description__list-element">
+            <h2 class="desctiption__header subtitle">Состав:</h2>
+            <p class="description__text">Креветки варено-мороженные очищенные, с хвостом.</p>
+          </li>
+          <li class="description__list-element description__list-element_high">
+            <h2 class="desctiption__header subtitle">Преимущества:</h2>
+            <ul class="description__inner-list">
+              <li class="description__inner-list-el">
+                <p class="description__inner-list-el-text">
+                  Эксклюзивная панировка ПАНКО - уникальная японская сухарная крошка придающая
+                  пышный и роскошный золотистый вид продуктам. Пышная, тонкая и хрустящая&nbsp;панировка "
+                </p>
+              </li>
+              <li class="description__inner-list-el">
+                <p class="description__inner-list-el-text">
+                  легкая корочка, минимально пропитанная маслом. Меньше жира: легкость
+                  и воздушность корочки позволяет стекать лишнему маслу, делая блюда менее<br>жирными
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li class="description__list-element">
+            <h2 class="desctiption__header subtitle">Применение:</h2>
+            <p class="description__text">Креветки в панировке подойдут для приготовления вторых блюд и в качестве
+              закуски.
+            </p>
+          </li>
+          <li class="description__list-element">
+            <h2 class="desctiption__header subtitle">Рекомендации</h2>
+            <p class="description__text">Положите замороженные креветки в корзину для фритюра, обжаривайте при t 175C
+              5-7
+              мин, дайте стечь маслу в течении 10 секунд.</p>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="lifehack">
+        <li class="lifehack__header">
+          <h3 class="lifehack__header-text subtitle">Лайфхак от шефа</h3>
+          <img src="./images/fire.svg" alt="" class="lifehack__header-img" />
+        </li>
+        <li class="lifehack__content">
+          <ul class="lifehack__content-id">
+            <li>
+              <img class="lifehack__content-id-img" src="./images/profile.jpg" alt="">
+            </li>
+            <li>
+              <p class="lifehack__content-id-name">Ëдгор Якубов</p>
+            </li>
+          </ul>
+          <p class="lifehack__content-text">
+            Разогрейте масло на сковороде и поджарьте креветки на сильном огне за 1 минуту. Переверните их, добавьте
+            мелко нарезанный чеснок и оставьте&nbsp;ещё на 1 минуту.<br>Затем перемешайте и готовьте 2 минуты. Выложите
+            креветки
+            на тарелку.<br>В эту же сковороду налейте вермут и лимонный сок. Доведите до кипения, жидкость должна
+            немного загустеть.
+            Добавьте цедру
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section4">
+      <h2 class="section4__title title">Товары в категории «Новинки»</h2>
+
+      <ul class="goods">
+        <li class="product-card">
+
+          <div class="product-card__img-container">
+            <img src="./images/beef.jpg" alt="" class="product-card__img">
+            <img src="./images/image-switcher.svg" alt="" class="product-card__img-switcher"/>
+          </div>
+
+          <div class="product-card__rating-container">
+            <div class="product-card__rating">
+              <img src="./images/Star.svg" alt="" class="product-card__rating-img">
+              <p class="product-card__rating-text">5</p>
+            </div>
+            <button class="product-card__like-button"/>
+          </div>
+
+          <h3 class="product-card__title">Мраморная говядина, мякоть Marbled Beef Pulp<br>"Праймбиф" 0,5 кг (Россия)</h3>
+
+          <div class="product-card__buy-container">
+            <div class="product-card__price-container">
+              <p class="product-card__price">677 ₽/шт</p>
+              <p class="product-card__bonus"><span class="product-card__bonus_colored">+5</span> бонусов</p>
+            </div>
+            <button class="product-card__buy-button">
+              <img src="./images/сart-big.svg" alt="" class="product-card__buy-button-img">
+            </button>
+          </div>
+
+          <ul class="property product-card__property">
+            <li class="property__el property__el_bestseller">хит</li>
+            <li class="property__el property__el_promotion">акция</li>
+            <li class="property__el property__el_recommendation">рекомендуем</li>
+            <li class="property__el property__el_frozen">заморозка</li>
+          </ul>
+
+        </li>
+        <li class="product-card">
+          
+          <div class="product-card__img-container">
+            <img src="./images/trout.jpg" alt="" class="product-card__img">
+            <img src="./images/image-switcher.svg" alt="" class="product-card__img-switcher"/>
+          </div>
+          
+          <div class="product-card__rating-container">
+            <div class="product-card__rating">
+              <img src="./images/Star-half.svg" alt="" class="product-card__rating-img">
+              <p class="product-card__rating-text">3</p>
+            </div>
+            <button class="product-card__like-button"/>
+          </div>
+          
+          <h3 class="product-card__title">Филе форели 1000-1400 гр свежемороженое трим "С" (Турция)</h3>
+          
+          <div class="product-card__buy-container">
+            <div class="product-card__price-container">
+              <p class="product-card__price">853 ₽/шт</p>
+              <p class="product-card__bonus"><span class="product-card__bonus_colored">+5</span> бонусов</p>
+            </div>
+            <button class="product-card__buy-button">
+              <img src="./images/сart-big.svg" alt="" class="product-card__buy-button-img">
+            </button>
+          </div>
+          
+          <ul class="property product-card__property">
+            <li class="property__el property__el_frozen">заморозка</li>
+          </ul>
+          
+        </li>
+        <li class="product-card">
+          
+          <div class="product-card__img-container">
+            <img src="./images/trout 200g.jpg" alt="" class="product-card__img">
+            <img src="./images/image-switcher.svg" alt="" class="product-card__img-switcher"/>
+          </div>
+          
+          <div class="product-card__rating-container">
+            <div class="product-card__rating">
+              <img src="./images/Star-empty.svg" alt="" class="product-card__rating-img">
+              <p class="product-card__rating-text">(0)</p>
+            </div>
+            <button class="product-card__like-button"/>
+          </div>
+          
+          <h3 class="product-card__title">Филе форели 200 гр слайсы свежемороженое слабой соли (Россия)</h3>
+          
+          <div class="product-card__buy-container">
+            <div class="product-card__price-container">
+              <p class="product-card__price">1373 ₽/шт</p>
+              <p class="product-card__bonus"><span class="product-card__bonus_colored">+5</span> бонусов</p>
+            </div>
+            <button class="product-card__buy-button">
+              <img src="./images/сart-big.svg" alt="" class="product-card__buy-button-img">
+            </button>
+          </div>
+          
+          <ul class="property product-card__property">
+            <li class="property__el property__el_promotion">акция</li>
+            <li class="property__el property__el_frozen">заморозка</li>
+          </ul>
+          
+        </li>
+        <li class="product-card">
+          
+          <div class="product-card__img-container">
+            <img src="./images/beef 750g.jpg" alt="" class="product-card__img">
+            <img src="./images/image-switcher.svg" alt="" class="product-card__img-switcher"/>
+          </div>
+          
+          <div class="product-card__rating-container">
+            <div class="product-card__rating">
+              <img src="./images/Star.svg" alt="" class="product-card__rating-img">
+              <p class="product-card__rating-text">5</p>
+            </div>
+            <button class="product-card__like-button"/>
+          </div>
+          
+          <h3 class="product-card__title">Мраморная говядина, грудинка Brisket Boneless "Праймбиф" 0,75 кг (Россия)</h3>
+          
+          <div class="product-card__buy-container">
+            <div class="product-card__price-container">
+              <p class="product-card__price-old">897 ₽/шт</p>
+              <p class="product-card__price product-card__price_colored">897 ₽/шт</p>
+              <p class="product-card__bonus"><span class="product-card__bonus_colored">+5</span> бонусов</p>
+            </div>
+            <button class="product-card__buy-button">
+              <img src="./images/сart-big.svg" alt="" class="product-card__buy-button-img">
+            </button>
+          </div>
+          
+          <ul class="property product-card__property">
+            <li class="property__el property__el_bestseller">хит</li>
+            <li class="property__el property__el_promotion">акция</li>
+          </ul>
+          
+        </li>
+        <li class="product-card">
+        
+          <div class="product-card__img-container">
+            <img src="./images/trout.jpg" alt="" class="product-card__img">
+            <img src="./images/image-switcher.svg" alt="" class="product-card__img-switcher"/>
+          </div>
+        
+          <div class="product-card__rating-container">
+            <div class="product-card__rating">
+              <img src="./images/Star.svg" alt="" class="product-card__rating-img">
+              <p class="product-card__rating-text">5</p>
+            </div>
+            <button class="product-card__like-button"/>
+          </div>
+        
+          <h3 class="product-card__title">Филе форели 1000-1400 гр свежемороженое трим "С" (Турция)</h3>
+        
+          <div class="product-card__buy-container">
+            <div class="product-card__price-container">
+              <p class="product-card__price">853 ₽/шт</p>
+            </div>
+            <button class="product-card__buy-button">
+              <img src="./images/сart-big.svg" alt="" class="product-card__buy-button-img">
+            </button>
+          </div>
+        
+          <ul class="property product-card__property">
+            <li class="property__el property__el_recommendation">рекомендуем</li>
+            <li class="property__el property__el_frozen">заморозка</li>
+          </ul>
+        
+        </li>
+      </ul>
+    </section>
+    
+    <div class="filler"></div>
+  </main>
+  
+  <script src="./pages/index.js"></script>
+</body>
+
+</html>

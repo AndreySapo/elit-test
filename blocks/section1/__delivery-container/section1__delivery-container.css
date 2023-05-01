@@ -1,0 +1,11 @@
+.section1__delivery-container {
+  margin-top: 19px;
+  width: 446px;
+  height: 51px;
+  background: var(--green-primary);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}

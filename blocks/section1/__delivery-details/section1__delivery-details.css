@@ -1,0 +1,8 @@
+.section1__delivery-details {
+  margin: 31px 0 0;
+  padding: 0 0 5px 0;
+  list-style-type: none;
+  display: flex;
+  gap: 47px;
+  border-bottom: 1px solid var(--grey-line);
+}

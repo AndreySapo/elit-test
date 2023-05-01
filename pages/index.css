@@ -1,0 +1,145 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/constants.css);
+
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/main/main.css);
+
+/* стили блока section1 */
+@import url(../blocks/section1/section1.css);
+/* section1 левая колонка */
+@import url(../blocks/section1/__left-col/section1__left-col.css);
+@import url(../blocks/section1/__img-container/section1__img-container.css);
+@import url(../blocks/section1/__thumbnails/section1__thumbnails.css);
+@import url(../blocks/section1/__thumbnail/section1__thumbnail.css);
+@import url(../blocks/section1/__thumbnail-img/section1__thumbnail-img.css);
+@import url(../blocks/section1/__thumbnail-img/_selected/section1__thumbnail-img_selected.css);
+@import url(../blocks/section1/__big-img/section1__big-img.css);
+@import url(../blocks/section1/__product-code/section1__product-code.css);
+@import url(../blocks/section1/__slider/section1__slider.css);
+@import url(../blocks/section1/__slider-button/section1__slider-button.css);
+@import url(../blocks/section1/__slider-left/section1__slider-left.css);
+@import url(../blocks/section1/__slider-right/section1__slider-right.css);
+/* section1 правая колонка */
+@import url(../blocks/section1/__right-col/section1__right-col.css);
+@import url(../blocks/section1/__right-col-up-part/section1__right-col-up-part.css);
+@import url(../blocks/section1/__title/section1__title.css);
+@import url(../blocks/section1/__rating-reviews/section1__rating-reviews.css);
+@import url(../blocks/section1/__rating/section1__rating.css);
+@import url(../blocks/section1/__rating-img/section1__rating-img.css);
+@import url(../blocks/section1/__rating-text/section1__rating-text.css);
+@import url(../blocks/section1/__reviews/section1__reviews.css);
+@import url(../blocks/section1/__prices/section1__prices.css);
+@import url(../blocks/section1/__actual-price/section1__actual-price.css);
+@import url(../blocks/section1/__old-price/section1__old-price.css);
+@import url(../blocks/section1/__bonuses/section1__bonuses.css);
+@import url(../blocks/section1/__bonuses/_colored/section1__bonuses_colored.css);
+@import url(../blocks/section1/__buy-list/section1__buy-list.css);
+@import url(../blocks/section1/__btn-cart/section1__btn-cart.css);
+@import url(../blocks/section1/__btn-cart-text/section1__btn-cart-text.css);
+@import url(../blocks/section1/__presence/section1__presence.css);
+@import url(../blocks/section1/__presence-img/section1__presence-img.css);
+@import url(../blocks/section1/__presence-text/section1__presence-text.css);
+@import url(../blocks/section1/__buying-story/section1__buying-story.css);
+@import url(../blocks/section1/__subtitle/section1__subtitle.css);
+@import url(../blocks/section1/__delivery-container/section1__delivery-container.css);
+@import url(../blocks/section1/__delivery-input/section1__delivery-input.css);
+@import url(../blocks/section1/__delivery-label/section1__delivery-label.css);
+@import url(../blocks/section1/__pickup-input/section1__pickup-input.css);
+@import url(../blocks/section1/__pickup-label/section1__pickup-label.css);
+@import url(../blocks/section1/__delivery-details/section1__delivery-details.css);
+@import url(../blocks/section1/__delivery-header/section1__delivery-header.css);
+@import url(../blocks/section1/__delivery-text/section1__delivery-text.css);
+
+@import url(../blocks/like-button/like-button.css);
+@import url(../blocks/like-button/_active/like-button_active.css);
+
+/* Стили блока property */
+@import url(../blocks/property/property.css);
+@import url(../blocks/property/__el/property__el.css);
+@import url(../blocks/property/__el/_bestseller/property__el_bestseller.css);
+@import url(../blocks/property/__el/_promotion/property__el_promotion.css);
+@import url(../blocks/property/__el/_recommendation/property__el_recommendation.css);
+@import url(../blocks/property/__el/_frozen/property__el_frozen.css);
+
+@import url(../blocks/title/title.css);
+@import url(../blocks/subtitle/subtitle.css);
+
+/* Стили блока section2 */
+@import url(../blocks/section2/section2.css);
+@import url(../blocks/section2/__left-column/section2__left-column.css);
+@import url(../blocks/section2/__subtitle/section2__subtitle.css);
+@import url(../blocks/section2/__nutrition/section2__nutrition.css);
+@import url(../blocks/section2/__nutrition-element/section2__nutrition-element.css);
+@import url(../blocks/section2/__nutrition-header/section2__nutrition-header.css);
+@import url(../blocks/section2/__nutrition-text/section2__nutrition-text.css);
+@import url(../blocks/section2/__right-column/section2__right-column.css);
+@import url(../blocks/section2/__tg/section2__tg.css);
+@import url(../blocks/section2/__tg-text/section2__tg-text.css);
+@import url(../blocks/section2/__tg-btn/section2__tg-btn.css);
+
+@import url(../blocks/banner/banner.css);
+
+/* Стили блока desctiption */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__tabs/description__tabs.css);
+@import url(../blocks/description/__tab/description__tab.css);
+@import url(../blocks/description/__tab/_active/description__tab_active.css);
+@import url(../blocks/description/__tab-text/description__tab-text.css);
+@import url(../blocks/description/__tab-text/_description/description__tab-text_description.css);
+@import url(../blocks/description/__tab-text/_specification/description__tab-text_specification.css);
+@import url(../blocks/description/__tab-text/_reviews/description__tab-text_reviews.css);
+@import url(../blocks/description/__tab-text/_warranty/description__tab-text_warranty.css);
+@import url(../blocks/description/__tab-text/_payment/description__tab-text_payment.css);
+@import url(../blocks/description/__list/description__list.css);
+@import url(../blocks/description/__list-element/description__list-element.css);
+@import url(../blocks/description/__list-element/_high/description__list-element_high.css);
+@import url(../blocks/description/__header/desctiption__header.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__inner-list/description__inner-list.css);
+@import url(../blocks/description/__inner-list-el/description__inner-list-el.css);
+@import url(../blocks/description/__inner-list-el-text/description__inner-list-el-text.css);
+
+@import url(../blocks/lifehack/lifehack.css);
+@import url(../blocks/lifehack/__header/lifehack__header.css);
+@import url(../blocks/lifehack/__header-text/lifehack__header-text.css);
+@import url(../blocks/lifehack/__content/lifehack__content.css);
+@import url(../blocks/lifehack/__content-id/lifehack__content-id.css);
+@import url(../blocks/lifehack/__content-id-name/lifehack__content-id-name.css);
+@import url(../blocks/lifehack/__content-text/lifehack__content-text.css);
+
+@import url(../blocks/section4/section4.css);
+@import url(../blocks/section4/__title/section4__title.css);
+
+@import url(../blocks/goods/goods.css);
+
+@import url(../blocks/product-card/product-card.css);
+@import url(../blocks/product-card/__img-container/product-card__img-container.css);
+@import url(../blocks/product-card/__img-switcher/product-card__img-switcher.css);
+@import url(../blocks/product-card/__img/product-card__img.css);
+@import url(../blocks/product-card/__rating-container/product-card__rating-container.css);
+@import url(../blocks/product-card/__rating/product-card__rating.css);
+@import url(../blocks/product-card/__rating-text/product-card__rating-text.css);
+@import url(../blocks/product-card/__like-button/product-card__like-button.css);
+@import url(../blocks/product-card/__like-button/_active/product-card__like-button_active.css);
+@import url(../blocks/product-card/__title/product-card__title.css);
+@import url(../blocks/product-card/__buy-container/product-card__buy-container.css);
+@import url(../blocks/product-card/__price-container/product-card__price-container.css);
+@import url(../blocks/product-card/__price-old/product-card__price-old.css);
+@import url(../blocks/product-card/__price/product-card__price.css);
+@import url(../blocks/product-card/__price/_colored/product-card__price_colored.css);
+@import url(../blocks/product-card/__bonus/product-card__bonus.css);
+@import url(../blocks/product-card/__bonus/_colored/product-card__bonus_colored.css);
+@import url(../blocks/product-card/__buy-button/product-card__buy-button.css);
+@import url(../blocks/product-card/__buy-button-img/product-card__buy-button-img.css);
+@import url(../blocks/product-card/__property/product-card__property.css);
+
+
+/* * {
+  outline: 1px solid red;
+} */
+
+.filler {
+  height: 500px;
+}

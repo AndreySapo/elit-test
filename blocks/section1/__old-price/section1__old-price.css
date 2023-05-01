@@ -1,0 +1,9 @@
+.section1__old-price {
+  margin: 14px 0 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  text-decoration-line: line-through;
+  color: var(--grey-primary);
+}

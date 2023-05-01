@@ -1,0 +1,4 @@
+.product-card__rating {
+  display: flex;
+  gap: 10px;
+}
